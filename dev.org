@@ -1,0 +1,10 @@
+#+PROPERTY: header-args :session *gumbo-query*
+Meson support build for gumbo-query
+
+* Build
+#+begin_src sh
+meson subprojects update # in case of any update 
+
+meson setup build
+ninja -C build
+#+end_src

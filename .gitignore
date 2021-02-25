@@ -170,3 +170,7 @@ xcuserdata/**/*
 # pull your cahnges to other's repo"
 #
 #*.xccheckout
+
+# meson
+**/subprojects/*
+!**/subprojects/*.wrap
