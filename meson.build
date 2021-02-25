@@ -24,4 +24,8 @@ gumbo_query_lib = library(
 gumbo_query_dep = declare_dependency(
   link_with: gumbo_query_lib,
   include_directories: include_directories('src'),
+  dependencies: [
+    # for gumbo.h
+    gumbo_parser_dep,
+    ]
 )

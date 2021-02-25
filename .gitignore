@@ -174,3 +174,5 @@ xcuserdata/**/*
 # meson
 **/subprojects/*
 !**/subprojects/*.wrap
+# clang
+.cache/
